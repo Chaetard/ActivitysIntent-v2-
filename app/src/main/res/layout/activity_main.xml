@@ -30,7 +30,31 @@
             android:layout_marginTop="20dp"
             android:ems="10"
             android:inputType="text"
-            android:hint="Name" />
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/txtAp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Apellido"/>
+
+        <EditText
+            android:id="@+id/txtCd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Ciudad"/>
+
+        <EditText
+            android:id="@+id/txtNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Numero de Telefono" />
 
         <Button
             android:id="@+id/btn_comenzar"
@@ -38,6 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Comenzar" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

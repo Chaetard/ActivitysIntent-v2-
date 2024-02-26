@@ -10,8 +10,13 @@ class Activity2 : AppCompatActivity() {
         setContentView(R.layout.activity_2)
 
         val nameR = intent.getStringExtra("name")
+        val apeR = intent.getStringExtra("ape")
+        val cidR = intent.getStringExtra("cid")
+        val num = intent.getStringExtra("num")
+
+
         val tName : TextView = findViewById(R.id.textView)
 
-        tName.text = "Bienvenido $nameR"
+        tName.text = "Bienvenido $nameR $apeR , de $cidR , y con numero de telefono $num"
     }
 }
